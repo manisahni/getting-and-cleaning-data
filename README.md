@@ -6,4 +6,4 @@ This file describes how run_analysis.R script works.
     Change the working directory in the setwd() command
     Second, use source("run_analysis.R") command in RStudio. 
     
- The final output of when the script is run will be a tidy data set called run_analysis.text that will be saved to the working directory with the average of each variable for each activity and each subject, an
+The final output of when the script is run will be a tidy data set called run_analysis.text that will be saved to the working directory with the average of each variable for each activity and each subject.
