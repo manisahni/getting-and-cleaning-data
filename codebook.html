@@ -77,7 +77,33 @@ The data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 The run_analysis.R script performs the following steps to clean the data:
 
-The run_analysis.R script performs the following steps to clean the data:</code></pre>
+The run_analysis.R script performs the following steps to clean the data:
+
+1)  Read X_train.txt, y_train.txt and subject_train.txt and store them in their respectivce variables respectively.
+
+2) Read X_test.txt, y_test.txt and subject_test.txt and store them in testData, testLabel and store them in seperate variables.
+
+3) relabeling columns of the activity labels (read in previously)
+
+4) merging the y_train with the activity label
+
+5) giving  names from features to the X_train data frame
+
+
+6) Combining y_train, activity labels, X_train
+
+7) eliminating the first column from train2 to avoid error &quot;duplicate column name&quot;</code></pre>
+<ol start="8" style="list-style-type: decimal">
+<li><p>selecting only the columns that contains means and std</p></li>
+<li><p>Analysis of the 30% of the Volunteer select for generating the test data</p></li>
+<li><p>merging the y_test with the activity label</p></li>
+<li><p>giving names from features to the X_test data frame colnames(X_test)&lt;- features[,2]</p></li>
+<li><p>Combining y_test, activity labels, X_test</p></li>
+<li><p>eliminating the first column from train2 to avoid error “duplicate column name”</p></li>
+<li><p>selecting only the columns that contains means and std</p></li>
+<li><p>Combining Train data with Test data</p></li>
+<li><p>Summarizing the data</p></li>
+</ol>
 </div>
 
 
